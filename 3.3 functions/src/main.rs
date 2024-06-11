@@ -51,25 +51,25 @@ fn test() {
     println!("The result is {result}");
 }
 
-fn test_while() {
-    let mut number = 3;
+// fn test_while() {
+//     let mut number = 3;
 
-    while number != 0 {
-        println!("{number}!");
+//     while number != 0 {
+//         println!("{number}!");
 
-        number -= 1;
-    }
+//         number -= 1;
+//     }
 
-    println!("LIFTOFF!!!");
-}
+//     println!("LIFTOFF!!!");
+// }
 
-fn test_for() {
-    let a = [10, 20, 30, 40, 50];
+// fn test_for() {
+//     let a = [10, 20, 30, 40, 50];
 
-    for element in a {
-        println!("the value is: {element}");
-    }
-}
+//     for element in a {
+//         println!("the value is: {element}");
+//     }
+// }
 
 fn test_for_two() {
     for number in (1..4).rev() {
